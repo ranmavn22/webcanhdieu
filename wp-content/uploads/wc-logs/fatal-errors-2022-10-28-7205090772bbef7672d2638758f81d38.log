@@ -1,0 +1,25 @@
+2022-10-28T04:08:00+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given in C:\laragon\www\webcanhdieu\wp-content\themes\bookworm\inc\classes\class-wp-offcanvas-navwalker.php:611
+Stack trace:
+#0 C:\laragon\www\webcanhdieu\wp-content\themes\bookworm\inc\classes\class-wp-offcanvas-navwalker.php(611): in_array('menu-item-has-c...', '')
+#1 C:\laragon\www\webcanhdieu\wp-includes\class-wp-walker.php(169): WP_OffCanvas_Navwalker->end_el('<li ><a href="#...', Object(WP_Post), 0, Array, 0)
+#2 C:\laragon\www\webcanhdieu\wp-content\themes\bookworm\inc\classes\class-wp-offcanvas-navwalker.php(341): Walker->display_element(Object(WP_Post), Array, 0, 0, Array, '<li ><a href="#...')
+#3 C:\laragon\www\webcanhdieu\wp-includes\class-wp-walker.php(246): WP_OffCanvas_Navwalker->display_element(Object(WP_Post), Array, 0, 0, Array, '<li ><a href="#...')
+#4 C:\laragon\www\webcanhdieu\wp-includes\post-template.php(1546): Walker->walk(Array, 0, Array, 0)
+#5 C:\laragon\www\webcanhdieu\wp-includes\post-template.php(1329): walk_page_tree(Array, 0, 0, Array)
+#6 C:\laragon\www\webcanhdieu\wp-includes\post-template.php(1461): wp_list_pages(Array)
+#7 C:\laragon\www\webcanhdieu\wp-includes\nav-menu-template.php(164): wp_page_menu(Array)
+#8 C:\laragon\www\webcanhdieu\wp-content\themes\bookworm\inc\template-functions\header.php(336): wp_nav_menu(Object(stdClass))
+#9 C:\laragon\www\webcanhdieu\wp-includes\class-wp-hook.php(307): bookworm_offcanvas_nav('')
+#10 C:\laragon\www\webcanhdieu\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#11 C:\laragon\www\webcanhdieu\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#12 C:\laragon\www\webcanhdieu\wp-content\themes\bookworm\header.php(45): do_action('bookworm_after_...')
+#13 C:\laragon\www\webcanhdieu\wp-includes\template.php(770): require_once('C:\\laragon\\www\\...')
+#14 C:\laragon\www\webcanhdieu\wp-includes\template.php(716): load_template('C:\\laragon\\www\\...', true, Array)
+#15 C:\laragon\www\webcanhdieu\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#16 C:\laragon\www\webcanhdieu\wp-content\themes\bookworm\404.php(16): get_header()
+#17 C:\laragon\www\webcanhdieu\wp-includes\template-loader.php(106): include('C:\\laragon\\www\\...')
+#18 C:\laragon\www\webcanhdieu\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#19 C:\laragon\www\webcanhdieu\index.php(17): require('C:\\laragon\\www\\...')
+#20 {main}
+  thrown in C:\laragon\www\webcanhdieu\wp-content\themes\bookworm\inc\classes\class-wp-offcanvas-navwalker.php on line 611
+

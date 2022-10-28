@@ -1,0 +1,216 @@
+
+---Downloaded files---
+The import files for: Bookworm were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = https://demo.madrasthemes.com/bookworm
+Data file = /var/www/demo.madrasthemes.com/public_html/wp-content/themes/bookworm/assets/dummy-data/dummy-data.xml
+Widget file = /var/www/demo.madrasthemes.com/public_html/wp-content/themes/bookworm/assets/dummy-data/widgets.wie
+Customizer file = /var/www/demo.madrasthemes.com/public_html/wp-content/themes/bookworm/assets/dummy-data/customizer.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "Plugin Backup - Bookworm Gutenberg Blocks - 0.0.1" (Media)
+[ERROR] Failed to import "Theme Backup - Bookworm - 1.0.0" (Media)
+[ERROR] Failed to import "Plugin Backup - Bookworm Gutenberg Blocks - 0.0.2" (Media)
+[ERROR] Failed to import "Plugin Backup - Bookworm Gutenberg Blocks - 0.0.3" (Media)
+[ERROR] Failed to import "Theme Backup - Bookworm - 0.0.2" (Media)
+[ERROR] Failed to import "Plugin Backup - Bookworm Gutenberg Blocks - 0.0.5" (Media)
+[ERROR] Failed to import "Plugin Backup - Bookworm Gutenberg Blocks - 0.0.6" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "Plugin Backup - Bookworm Gutenberg Blocks - 0.0.1" (Media)
+[ERROR] Failed to import "Theme Backup - Bookworm - 1.0.0" (Media)
+[ERROR] Failed to import "Plugin Backup - Bookworm Gutenberg Blocks - 0.0.2" (Media)
+[ERROR] Failed to import "Plugin Backup - Bookworm Gutenberg Blocks - 0.0.3" (Media)
+[ERROR] Failed to import "Theme Backup - Bookworm - 0.0.2" (Media)
+[ERROR] Failed to import "Plugin Backup - Bookworm Gutenberg Blocks - 0.0.5" (Media)
+[ERROR] Failed to import "Plugin Backup - Bookworm Gutenberg Blocks - 0.0.6" (Media)
+[ERROR] Failed to import "Theme Backup - Bookworm - 0.0.3" (Media)
+[ERROR] Failed to import "Plugin Backup - Bookworm Extensions - 1.0.1" (Media)
+[ERROR] Failed to import "Theme Backup - Bookworm - 0.0.4" (Media)
+[ERROR] Failed to import "Plugin Backup - Bookworm Demo - 0.0.1" (Media)
+[ERROR] Failed to import "Theme Backup - Bookworm - 0.0.5" (Media)
+[ERROR] Failed to import "Plugin Backup - Bookworm Gutenberg Blocks - 0.0.7" (Media)
+[ERROR] Failed to import "Plugin Backup - Bookworm Gutenberg Blocks - 0.0.8" (Media)
+[ERROR] Failed to import "Plugin Backup - Bookworm Gutenberg Blocks - 0.0.9" (Media)
+[ERROR] Failed to import "Theme Backup - Bookworm - 0.0.6" (Media)
+[ERROR] Failed to import "Plugin Backup - Bookworm Gutenberg Blocks - 0.0.10" (Media)
+[ERROR] Failed to import "Plugin Backup - Bookworm Gutenberg Blocks - 0.0.11" (Media)
+[ERROR] Failed to import "Theme Backup - Bookworm - 0.0.7" (Media)
+[ERROR] Failed to import "Plugin Backup - Bookworm Demo - 0.0.5" (Media)
+[ERROR] Failed to import "Plugin Backup - Bookworm Gutenberg Blocks - 0.0.11" (Media)
+[ERROR] Failed to import "Plugin Backup - Bookworm Gutenberg Blocks - 0.0.12" (Media)
+[ERROR] Failed to import "Theme Backup - Bookworm - 0.0.71" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "Plugin Backup - Bookworm Gutenberg Blocks - 0.0.1" (Media)
+[ERROR] Failed to import "Theme Backup - Bookworm - 1.0.0" (Media)
+[ERROR] Failed to import "Plugin Backup - Bookworm Gutenberg Blocks - 0.0.2" (Media)
+[ERROR] Failed to import "Plugin Backup - Bookworm Gutenberg Blocks - 0.0.3" (Media)
+[ERROR] Failed to import "Theme Backup - Bookworm - 0.0.2" (Media)
+[ERROR] Failed to import "Plugin Backup - Bookworm Gutenberg Blocks - 0.0.5" (Media)
+[ERROR] Failed to import "Plugin Backup - Bookworm Gutenberg Blocks - 0.0.6" (Media)
+[ERROR] Failed to import "Theme Backup - Bookworm - 0.0.3" (Media)
+[ERROR] Failed to import "Plugin Backup - Bookworm Extensions - 1.0.1" (Media)
+[ERROR] Failed to import "Theme Backup - Bookworm - 0.0.4" (Media)
+[ERROR] Failed to import "Plugin Backup - Bookworm Demo - 0.0.1" (Media)
+[ERROR] Failed to import "Theme Backup - Bookworm - 0.0.5" (Media)
+[ERROR] Failed to import "Plugin Backup - Bookworm Gutenberg Blocks - 0.0.7" (Media)
+[ERROR] Failed to import "Plugin Backup - Bookworm Gutenberg Blocks - 0.0.8" (Media)
+[ERROR] Failed to import "Plugin Backup - Bookworm Gutenberg Blocks - 0.0.9" (Media)
+[ERROR] Failed to import "Theme Backup - Bookworm - 0.0.6" (Media)
+[ERROR] Failed to import "Plugin Backup - Bookworm Gutenberg Blocks - 0.0.10" (Media)
+[ERROR] Failed to import "Plugin Backup - Bookworm Gutenberg Blocks - 0.0.11" (Media)
+[ERROR] Failed to import "Theme Backup - Bookworm - 0.0.7" (Media)
+[ERROR] Failed to import "Plugin Backup - Bookworm Demo - 0.0.5" (Media)
+[ERROR] Failed to import "Plugin Backup - Bookworm Gutenberg Blocks - 0.0.11" (Media)
+[ERROR] Failed to import "Plugin Backup - Bookworm Gutenberg Blocks - 0.0.12" (Media)
+[ERROR] Failed to import "Theme Backup - Bookworm - 0.0.71" (Media)
+[ERROR] Failed to import "Plugin Backup - Bookworm Extensions - 0.0.4" (Media)
+[ERROR] Failed to import "Theme Backup - Bookworm - 0.0.72" (Media)
+[ERROR] Failed to import "Theme Backup - Bookworm - 0.0.73" (Media)
+[ERROR] Failed to import "Plugin Backup - Bookworm Extensions - 0.0.72" (Media)
+[ERROR] Failed to import "Plugin Backup - Bookworm Gutenberg Blocks - 0.0.13" (Media)
+[ERROR] Failed to import "Theme Backup - Bookworm - 0.0.74" (Media)
+[ERROR] Failed to import "Theme Backup - Bookworm - 0.0.75" (Media)
+[ERROR] Failed to import "Plugin Backup - Bookworm Gutenberg Blocks - 0.0.14" (Media)
+[ERROR] Failed to import "Plugin Backup - Bookworm Gutenberg Blocks - 0.0.15" (Media)
+[ERROR] Failed to import "Theme Backup - Bookworm - 0.0.76" (Media)
+[ERROR] Failed to import "Plugin Backup - Bookworm Gutenberg Blocks - 0.0.16" (Media)
+[ERROR] Failed to import "Plugin Backup - Bookworm Gutenberg Blocks - 0.0.17" (Media)
+[ERROR] Failed to import "Plugin Backup - Bookworm Gutenberg Blocks - 0.0.18" (Media)
+[ERROR] Failed to import "Theme Backup - Bookworm - 0.0.77" (Media)
+[ERROR] Failed to import "Theme Backup - Bookworm - 0.0.78" (Media)
+[ERROR] Failed to import "Theme Backup - Bookworm - 0.0.79" (Media)
+[ERROR] Failed to import "Theme Backup - Bookworm - 0.0.80" (Media)
+[ERROR] Failed to import "Theme Backup - Bookworm - 0.0.81" (Media)
+[ERROR] Failed to import "Theme Backup - Bookworm - 0.0.83" (Media)
+[ERROR] Failed to import "Plugin Backup - Bookworm Gutenberg Blocks - 0.0.19" (Media)
+[ERROR] Failed to import "Plugin Backup - Bookworm Gutenberg Blocks - 0.0.20" (Media)
+[ERROR] Failed to import "Theme Backup - Bookworm - 0.0.84" (Media)
+[ERROR] Failed to import "Theme Backup - Bookworm - 0.0.85" (Media)
+[ERROR] Failed to import "Theme Backup - Bookworm - 0.0.86" (Media)
+[ERROR] Failed to import "Plugin Backup - Bookworm Gutenberg Blocks - 0.0.21" (Media)
+[ERROR] Failed to import "Plugin Backup - Bookworm Gutenberg Blocks - 0.0.22" (Media)
+[ERROR] Failed to import "Theme Backup - Bookworm - 0.0.87" (Media)
+[ERROR] Failed to import "Theme Backup - Bookworm - 0.0.88" (Media)
+[ERROR] Failed to import "Theme Backup - Bookworm - 0.0.89" (Media)
+[ERROR] Failed to import "Theme Backup - Bookworm - 0.0.90" (Media)
+[ERROR] Failed to import "Theme Backup - Bookworm - 0.0.91" (Media)
+[ERROR] Failed to import "Theme Backup - Bookworm - 0.0.92" (Media)
+
+
+---pt-ocdi/before_widgets_import---
+
+
+---Importing widgets---
+cs-1 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Custom HTML - No Title - Imported to Inactive
+Navigation Menu - No Title - Imported to Inactive
+
+cs-7 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Custom HTML - No Title - Imported to Inactive
+
+cs-8 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Custom HTML - No Title - Imported to Inactive
+
+cs-9 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Custom HTML - No Title - Imported to Inactive
+
+cs-10 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Custom HTML - No Title - Imported to Inactive
+Navigation Menu - No Title - Imported to Inactive
+
+cs-11 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Custom HTML - No Title - Imported to Inactive
+WPForms - No Title - Imported to Inactive
+
+cs-2 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Custom HTML - No Title - Imported to Inactive
+WPForms - No Title - Imported to Inactive
+Custom HTML - No Title - Imported to Inactive
+
+cs-3 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Custom HTML - No Title - Imported to Inactive
+
+cs-4 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Custom HTML - No Title - Imported to Inactive
+
+cs-5 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Custom HTML - No Title - Imported to Inactive
+Navigation Menu - No Title - Imported to Inactive
+
+cs-6 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Custom HTML - No Title - Imported to Inactive
+WPForms - No Title - Imported to Inactive
+
+Shop Sidebar : 
+
+Product Categories - Categories - Imported
+Filter Products by Attribute - Author - Imported
+Filter Products by Attribute - Format - Imported
+Filter Products by Price - Filter by price - Imported
+Filter Products by Rating - By Review - Imported
+Products - Featured Books - Imported
+
+Single Sidebar : 
+
+Products - No Title - Imported
+Bookworm Features Block - No Title - Imported
+
+Blog Sidebar : 
+
+Search - Search - Imported
+Categories - Categories - Imported
+(Bookworm) Recent Posts - Recent Post - Imported
+Tag Cloud - Tags - Imported
+
+Footer Column 1 : 
+
+Navigation Menu - Explore - Imported
+
+Footer Column 2 : 
+
+Navigation Menu - Customer Service - Imported
+
+Footer Column 3 : 
+
+Navigation Menu - Policy - Imported
+
+Footer Column 4 : 
+
+Navigation Menu - Categories - Imported
+
+Footer Column 5 : 
+
+WPForms - Join Our Newsletter - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---pt-ocdi/after_import---
+
