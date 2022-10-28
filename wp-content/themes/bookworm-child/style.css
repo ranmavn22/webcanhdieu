@@ -14,3 +14,26 @@ License URI:        https://www.gnu.org/licenses/gpl-3.0.html
 Text Domain:        bookworm
 Tags:               e-commerce, two-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, featured-images, full-width-template, threaded-comments, accessibility-ready, rtl-language-support, footer-widgets, sticky-post, theme-options, editor-style
 */
+
+
+#site-header .topbar__nav--right .nav-item:first-child{
+    display:none !important;
+}
+
+.link-black-100{
+    color: #000
+}
+
+.topbar__nav .topbar__nav--left li a{
+    padding: 0 10px;
+}
+.topbar__nav .topbar__nav--left li:first-child{
+    font-weight: bold;
+    border-right: 1px solid;
+}
+.topbar__nav .topbar__nav--left{
+    font-size: 12px;
+}
+.topbar__nav{
+    height: 60px;
+}

@@ -174,10 +174,7 @@ if ( ! function_exists( 'bookworm_site_title_or_logo' ) ) {
             bookworm_get_template( 'global/logo-svg.php' );
             $bookworm_logo_svg = ob_get_clean();
 
-            $html = sprintf('<a href="%1$s" class="header-logo-link d-block' . esc_attr( $additional_classes ) . '">%2$s</a>',
-                esc_url( home_url( '/' ) ),
-                $bookworm_logo_svg
-            );
+            $html = sprintf(get_custom_logo());
             
         } elseif ( !empty ($custom_logo_id)) {
             $custom_logo_attr = [
