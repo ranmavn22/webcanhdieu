@@ -40,7 +40,7 @@ html body{
     font-weight: 500;
 }
 .topbar__nav{
-    height: 60px;
+    height: 40px;
 }
 
 #menu-primary-menu a{
@@ -53,11 +53,56 @@ html body{
 #menu-primary-menu {
     font-size: 14px;
 }
-.offcanvas-toggler{
-    display: none !important;
+
+.feature-category .list-unstyled .product-category:first-child .product-category__icon:before{
+    content: url("./assets/images/icon-book-star.png");
+    display: inline-block;
 }
-@media(min-width: 1999px) {
+.feature-category .list-unstyled .product-category:nth-child(2) .product-category__icon:before{
+    content: url("./assets/images/iconoir_book.png");
+    display: inline-block;
+}
+.feature-category .list-unstyled .product-category:nth-child(3) .product-category__icon:before{
+    content: url("./assets/images/icon-book-user.png");
+    display: inline-block;
+}
+.feature-category .list-unstyled .product-category:nth-child(4) .product-category__icon:before{
+    content: url("./assets/images/icon-book-search.png");
+    display: inline-block;
+}
+.feature-category .list-unstyled .product-category:nth-child(5) .product-category__icon:before{
+    content: url("./assets/images/icon-tool.png");
+    display: inline-block;
+}
+
+.top-banner .container .hero div{
+    width: 100%;
+    flex-basis: 100%;
+    max-width: 100%;
+}
+.top-banner .container img{
+    width: 100%;
+}
+.top-banner .container .hero > .col-lg-7{
+    display:none
+}
+.top-banner .container .hero{
+    min-height: inherit !important;
+}
+.top-banner .container{
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: inherit;
+}
+
+@media(min-width: 1200px) {
     .offcanvas-toggler{
-        display: block !important;
+        display: none !important;
+    }
+}
+
+@media(max-width: 767px) {
+    #site-header .masthead .container-fluid > div{
+        flex-wrap: nowrap !important;
     }
 }
