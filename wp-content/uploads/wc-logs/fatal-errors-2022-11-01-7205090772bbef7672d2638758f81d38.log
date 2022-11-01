@@ -1,0 +1,2 @@
+2022-11-01T16:19:45+00:00 CRITICAL Out of memory (allocated 8388608) (tried to allocate 32768 bytes) in D:\xampp\htdocs\webcanhdieu\wp-admin\includes\ajax-actions.php on line 2928
+
