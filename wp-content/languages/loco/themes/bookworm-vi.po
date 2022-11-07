@@ -3,9 +3,9 @@ msgstr ""
 "Project-Id-Version: Bookworm Child\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-31 16:56+0000\n"
-"PO-Revision-Date: 2022-10-31 17:03+0000\n"
+"PO-Revision-Date: 2022-11-07 16:25+0000\n"
 "Last-Translator: \n"
-"Language-Team: Vietnamese\n"
+"Language-Team: Tiếng Việt\n"
 "Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
@@ -393,7 +393,7 @@ msgstr ""
 #: woocommerce/single-product/meta.php:61
 msgid "Category:"
 msgid_plural "Categories:"
-msgstr[0] ""
+msgstr[0] "Danh mục sản phẩm"
 
 #: woocommerce/cart/cart-shipping.php:52
 msgid "Change address"
@@ -1962,7 +1962,7 @@ msgstr ""
 
 #: inc/woocommerce/template-functions/product-archive.php:376
 msgid "Show %s"
-msgstr ""
+msgstr "Xem %s sản phẩm"
 
 #: inc/customizer/class-bookworm-customizer.php:346
 msgid "Show cart?"
@@ -1992,7 +1992,7 @@ msgstr ""
 #: inc/woocommerce/template-functions/product-archive.php:115
 msgid "Showing all %d result"
 msgid_plural "Showing all %d results"
-msgstr[0] ""
+msgstr[0] "Tất cả %d sản phẩm"
 
 #: inc/woocommerce/template-functions/product-archive.php:112
 msgid "Showing the single result"
@@ -2537,7 +2537,7 @@ msgstr ""
 msgctxt "with first and last result"
 msgid "Showing %1$d&ndash;%2$d of %3$d result"
 msgid_plural "Showing %1$d&ndash;%2$d of %3$d results"
-msgstr[0] ""
+msgstr[0] "Tất cả %2$d/%3$d sản phẩm"
 
 #: inc/class-bookworm.php:903
 msgid "WooCommerce"

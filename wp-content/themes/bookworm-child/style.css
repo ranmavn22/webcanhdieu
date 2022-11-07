@@ -18,10 +18,25 @@ Tags:               e-commerce, two-columns, left-sidebar, right-sidebar, custom
 
 html body{
     font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    color:  #000;
 }
 
 #site-header .topbar__nav--right .nav-item:first-child{
     display:none !important;
+}
+
+#site-header .masthead  .container-fluid{
+    padding-top: 18px !important;
+    padding-bottom: 20px !important;
+}
+#site-header .container-fluid{
+    max-width: 1240px;
+    padding: 0 20px !important;
+}
+
+#searchform input {
+    min-width: inherit !important;
 }
 
 .link-black-100{
@@ -38,6 +53,7 @@ html body{
 .topbar__nav .topbar__nav--left{
     font-size: 12px;
     font-weight: 500;
+    margin-left: 0;
 }
 .topbar__nav{
     height: 40px;
@@ -155,14 +171,21 @@ html body{
 
 .feature-category ul li .product-category__inner{
     padding-left: 35px !important;
-    padding-right: 35px !important;
-    padding-bottom: 17px !important;
+    padding-right: 10px !important;
+    padding-bottom: 19px !important;
+}
+.space-4, .space-bottom-4{
+    padding-bottom: 120px !important;
+}
+.products .product__body{
+    max-width: 160px;
+    margin: 0 auto;
 }
 .feature-category ul a{
     font-size: 14px;
 }
 .feature-category{
-    margin-bottom: 90px;
+    margin-bottom: 88px;
 }
 
 .session-selling header{
@@ -175,7 +198,7 @@ html body{
 }
 
 .container{
-    max-width: 1200px;
+    max-width: 1230px;
 }
 
 .product__inner img{
@@ -231,12 +254,13 @@ html body{
 .footer-supplier .wp-block-gallery{
     display: flex;
     justify-content: center;
-    padding: 10px 0;
+    padding: 9px 0;
+    margin-bottom: 0;
 }
 
 .main-footer{
     padding-top: 50px;
-    padding-bottom: 70px;
+    padding-bottom: 50px;
 }
 
 .address-company .widget p{
@@ -262,6 +286,72 @@ html body{
     text-align: right
 }
 
+.home .bwgb-hero-carousel-1.top-banner{
+    margin-bottom: 128px !important;
+}
+
+.footer-top-row .address-company{
+    padding-bottom: 0 !important;
+}
+.footer-top-row{
+    align-items: center;
+}
+.footer-top-row .menu a{
+    padding: 0 9px !important;
+    line-height: 24px;
+    background: #EDEDED;
+    border-radius: 5px;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 3px 2px;
+}
+.footer-top-row .menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+.banner-image img{
+    width: 100%
+}
+.page-id-200 .h2{
+    font-weight: 700;
+    font-size: 36px;
+}
+.page-id-200 .page__header{
+    display: none;
+}
+
+.archive .woocommerce-products-header{
+    display:none;
+}
+
+.page-header .woocommerce-breadcrumb{
+    font-size: 12px !important;
+}
+.page-header{
+    background: #F5F5F5;
+}
+.page-header .py-4{
+    padding: 0 !important;
+    height: 30px;
+}
+#widgetAccordion .widget-title{
+    font-weight: bold !important;
+    font-size: 14px;
+}
+#widgetAccordion .widget-content .count{
+    display: none;
+}
+#widgetAccordion button{
+    color: #fff;
+    width: 70px;
+    height: 35px;
+    padding: 0;
+}
+#widgetAccordion .widget-content{
+    margin-top: 17px !important;
+}
+
 @media(min-width: 1200px) {
     .offcanvas-toggler{
         display: none !important;
@@ -274,6 +364,9 @@ html body{
     }
     .site-header .masthead {
         padding: 5px 0;
+    }
+    #site-header .masthead  .container-fluid{
+        padding: 0 20px !important;
     }
 }
 

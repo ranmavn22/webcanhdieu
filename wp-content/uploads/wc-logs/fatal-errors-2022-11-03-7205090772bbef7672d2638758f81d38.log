@@ -1,0 +1,4 @@
+2022-11-03T09:54:22+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\webcanhdieu\wp-content\plugins\woocommerce\src\Admin\API\ProductReviews.php on line 10
+
+2022-11-03T09:54:53+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\webcanhdieu\wp-content\plugins\woocommerce\includes\rest-api\Controllers\Version3\class-wc-rest-system-status-controller.php on line 28
+
