@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2022-10-11T15:41:48+00:00\n"
-"PO-Revision-Date: 2022-11-07 16:32+0000\n"
+"PO-Revision-Date: 2022-11-15 16:47+0000\n"
 "X-Generator: Loco https://localise.biz/\n"
 "X-Domain: woocommerce\n"
 "Language: vi\n"
@@ -20552,11 +20552,11 @@ msgstr ""
 #: includes/class-wc-form-handler.php:628
 #: includes/class-wc-form-handler.php:632
 msgid "%s removed."
-msgstr ""
+msgstr "%s đã bị xóa."
 
 #: includes/class-wc-form-handler.php:629
 msgid "Undo?"
-msgstr ""
+msgstr "Quay lại?"
 
 #. Translators: %s Product title.
 #: includes/class-wc-form-handler.php:684
@@ -30910,7 +30910,7 @@ msgstr ""
 
 #: includes/wc-template-functions.php:3643
 msgid "Your cart is currently empty."
-msgstr ""
+msgstr "Bạn không có sản phẩm trong giỏ hàng."
 
 #: includes/wc-term-functions.php:234
 #: includes/widgets/class-wc-widget-product-categories.php:266
@@ -32009,7 +32009,7 @@ msgstr ""
 #: packages/woocommerce-blocks/src/BlockTypes/MiniCart.php:528
 #: packages/woocommerce-blocks/build/cart.js:44
 msgid "Your cart is currently empty!"
-msgstr ""
+msgstr "Bạn không có sản phẩm trong giỏ hàng!"
 
 #: packages/woocommerce-blocks/src/BlockTypes/ProductCategories.php:218
 msgid "List of categories"

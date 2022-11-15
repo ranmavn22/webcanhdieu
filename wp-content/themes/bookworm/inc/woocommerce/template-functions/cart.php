@@ -18,8 +18,8 @@ if ( ! function_exists( 'bookworm_wc_empty_cart_message' ) ) {
 if ( ! function_exists( 'bookworm_cart_page_header' ) ) {
     function bookworm_cart_page_header() {
         $items_in_cart   = sprintf( _n( '%s item', '%s items', WC()->cart->get_cart_contents_count(), 'bookworm' ), WC()->cart->get_cart_contents_count() );
-        $cart_page_title = sprintf( esc_html__( 'Your Cart: %s', 'bookworm' ), $items_in_cart );
-        bookworm_the_page_header( $cart_page_title, array( 'page__header--cart' ) );
+        $cart_page_title = sprintf( esc_html__( 'Your Cart: %s', 'bookworm' ), '<br><span>'.$items_in_cart.'</span>' );
+        bookworm_the_page_header( $cart_page_title, array( 'page__header--cart1' ) );
     }
 }
 

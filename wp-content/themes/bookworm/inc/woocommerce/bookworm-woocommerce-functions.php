@@ -31,7 +31,7 @@ if ( ! function_exists( 'bookworm_get_product_archive_layout' ) ) {
             $brand_taxonomy = $mas_wc_brands->get_brand_taxonomy();
             if ( is_tax ( $brand_taxonomy ) && is_product_taxonomy() ) {
                 $is_brand = true;
-            }  
+            }
         }
 
          if ( bookworm_is_product_archive() && ! $is_brand ) {
@@ -39,7 +39,7 @@ if ( ! function_exists( 'bookworm_get_product_archive_layout' ) ) {
                 $layout = 'full-width';
             } else {
                 $layout = apply_filters( 'bookworm_product_archive_layout', get_theme_mod( 'product_archive_layout', 'left-sidebar' ) );
-            }    
+            }
         }
         return $layout;
     }
@@ -49,13 +49,13 @@ if ( ! function_exists( 'bookworm_get_product_archive_layout' ) ) {
 if ( ! function_exists( 'bookworm_get_single_product_layout' ) ) {
     function bookworm_get_single_product_layout() {
         $layout = '';
-        
+
         if ( is_product() && bookworm_is_single_product_sidebar() ) {
             if ( ! is_active_sidebar( 'sidebar-single' ) ) {
                 $layout = 'full-width';
             } else {
                 $layout = apply_filters( 'bookworm_single_product_layout', get_theme_mod( 'single_product_layout', 'right-sidebar' ));
-            }    
+            }
        }
 
         return $layout;
@@ -187,7 +187,7 @@ if ( ! function_exists( 'bookworm_get_single_product_style' ) ) {
             if ( isset($product_meta_values ) &&$product_meta_values ) {
                 $layout =$product_meta_values;
             }
-            
+
         return  $layout;
     }
 }
@@ -313,7 +313,7 @@ if ( ! function_exists( 'bookworm_site_header_store_locator_link' ) ) {
                 ],
             ];
         endif;
-       
+
         return $links;
     }
 }
@@ -546,7 +546,7 @@ if ( ! function_exists( 'bookworm_wc_offcanvas_mini_cart' ) ) {
             if( empty( $aria_base ) ) {
                 $aria_base = 'sidebarNavToggler-my_cart';
             }
-   
+
         ?>
         <aside id="<?php echo esc_attr( $id_base ); ?>" class="u-sidebar u-sidebar__xl" aria-labelledby="<?php echo esc_attr( $aria_base ); ?>">
             <div class="u-sidebar__scroller js-scrollbar">
@@ -571,21 +571,21 @@ if ( ! function_exists( 'bookworm_wc_offcanvas_mini_cart' ) ) {
                         </div>
 
                         <?php bookworm_wc_offcanvas_mini_cart_content(); ?>
-                        
+
                     </div>
                 </div>
             </div>
         </aside>
         <?php
     endif;
-        
+
     }
 }
 
 if ( ! function_exists( 'bookworm_wc_offcanvas_mini_cart_content' ) ) {
-    
+
     function bookworm_wc_offcanvas_mini_cart_content() { ?>
-        <div class="u-sidebar__body">
+        <div class="">
                 <div class="u-sidebar__content u-header-sidebar__content">
                     <header class="border-bottom px-4 px-md-6 py-4">
                         <h2 class="font-size-3 mb-0 d-flex align-items-center">
@@ -606,7 +606,7 @@ if ( ! function_exists( 'bookworm_wc_offcanvas_mobile_mini_cart' ) ) {
      */
     function bookworm_wc_offcanvas_mobile_mini_cart() {
         bookworm_wc_offcanvas_mini_cart('offcanvasMobileCart', 'sidebarMobileNavToggler-my_cart');
-        
+
     }
 }
 

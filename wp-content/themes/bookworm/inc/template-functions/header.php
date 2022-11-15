@@ -153,7 +153,7 @@ if ( ! function_exists( 'bookworm_site_title_or_logo' ) ) {
      */
     function bookworm_site_title_or_logo( $echo = true, $tag_class = '' ) {
         $header_version = bookworm_header_version();
-    
+
         if( $header_version === 'v10') {
             $additional_classes=' mb-3';
         } elseif( $header_version === 'v8') {
@@ -175,7 +175,7 @@ if ( ! function_exists( 'bookworm_site_title_or_logo' ) ) {
             $bookworm_logo_svg = ob_get_clean();
 
             $html = sprintf(get_custom_logo());
-            
+
         } elseif ( !empty ($custom_logo_id)) {
             $custom_logo_attr = [
                 'class' => 'header-logo',
@@ -433,7 +433,7 @@ if ( ! function_exists( 'bookworm_site_header_offcanvas_toggle_links' ) ) {
                                 <?php if( ! empty( $badge_text ) || $key === 'my_cart' ) : ?>
                                     <span class="position-absolute width-16 height-16 rounded-circle d-flex align-items-center justify-content-center font-size-n9 left-0 top-0 ml-n2 mt-n1 <?php echo esc_attr( $badge_classes ); ?>">
                                         <?php if ( $key === 'my_cart' ) {
-                                            bookworm_cart_link_count(); 
+                                            bookworm_cart_link_count();
                                         } else {
                                             echo esc_html( $badge_text );
                                         } ?>
@@ -520,7 +520,7 @@ if ( ! function_exists( 'bookworm_site_header_icons_links' ) ) {
 
                         if( ( isset( $link['badge_text'] ) && ! empty( $link['badge_text'] ) ) || $key === 'my_cart' ) {
                             $link['atts']['class'] .= ' position-relative';
-                        
+
                         }
                     }
 
@@ -550,12 +550,12 @@ if ( ! function_exists( 'bookworm_site_header_icons_links' ) ) {
                     if( ( ! $icon_only && ! empty( $text ) ) || ! empty( $icon_classes ) ) {
                         ?>
                         <li class="nav-item<?php if( isset( $link['item_class'] ) && ! empty( $link['item_class'] ) ) echo esc_attr( ' ' . $link['item_class'] ); ?>">
-                            <a<?php echo print_r( $attributes, true ); ?>>
+                            <a class="nav-link link-black-100 font-size-3 px-3 pr-0 position-relative target-of-invoker-has-unfolds" href="<?php echo get_permalink(2977)?>">
                                 <?php if( ( isset( $link['badge_text'] ) && ! empty( $link['badge_text'] ) ) || $key === 'my_cart' )  : ?>
 
                                     <span class="position-absolute width-16 height-16 rounded-circle d-flex align-items-center justify-content-center font-size-n9 <?php echo esc_attr( $badge_classes ); ?>">
                                         <?php if ( $key === 'my_cart' ) {
-                                            bookworm_cart_link_count(); 
+                                            bookworm_cart_link_count();
                                         } else {
                                             echo esc_html( $badge_text );
                                         } ?>
@@ -583,7 +583,7 @@ if ( ! function_exists( 'bookworm_cart_link_count' ) ) {
     function bookworm_cart_link_count() {
         ?><span class="cart-contents-count">
             <?php echo absint( is_a( WC()->cart, 'WC_Cart' ) ? WC()->cart->get_cart_contents_count() : 0 ); ?>
-        
+
         </span><?php
     }
 }

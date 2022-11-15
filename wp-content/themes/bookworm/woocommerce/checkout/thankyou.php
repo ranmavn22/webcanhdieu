@@ -39,7 +39,7 @@ defined( 'ABSPATH' ) || exit;
 
                 <?php else : ?>
 
-                    <h6 class="font-size-3 font-weight-medium text-center mb-4 pb-xl-1 woocommerce-notice woocommerce-notice--success woocommerce-thankyou-order-received">
+                    <h6 class="font-size-3 font-weight-medium text-center mb-4 pb-xl-1 woocommerce-notice woocommerce-notice--success  sdfasdf ádfwoocommerce-thankyou-order-received">
                         <?php echo apply_filters( 'woocommerce_thankyou_order_received_text', esc_html__( 'Thank you. Your order has been received.', 'bookworm' ), $order ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
                     </h6>
                     <div class="border-bottom mb-5 pb-5 overflow-auto overflow-md-visible">

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Bookworm Child\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-31 16:56+0000\n"
-"PO-Revision-Date: 2022-11-07 16:25+0000\n"
+"PO-Revision-Date: 2022-11-15 17:11+0000\n"
 "Last-Translator: \n"
 "Language-Team: Tiếng Việt\n"
 "Language: vi\n"
@@ -52,7 +52,7 @@ msgstr ""
 #: inc/woocommerce/template-functions/cart.php:20
 msgid "%s item"
 msgid_plural "%s items"
-msgstr[0] ""
+msgstr[0] "%s sản phẩm"
 
 #: templates/shop/single-product-advanced-reviews.php:31
 msgid "%s review"
@@ -458,7 +458,7 @@ msgstr ""
 #: inc/woocommerce/bookworm-woocommerce-functions.php:568
 #: inc/woocommerce/template-functions/product-archive.php:287
 msgid "Close"
-msgstr ""
+msgstr "Đóng"
 
 #. translators: label for textarea in comment form
 #: comments.php:79
@@ -1539,7 +1539,7 @@ msgstr ""
 #: templates/shop/compare.php:94 templates/shop/compare.php:157
 #: woocommerce/cart/cart.php:29 woocommerce/cart/cart.php:81
 msgid "Price"
-msgstr ""
+msgstr "Giá"
 
 #: inc/class-bookworm.php:149
 msgid "Primary"
@@ -1571,13 +1571,13 @@ msgstr ""
 
 #: woocommerce/cart/proceed-to-checkout-button.php:26
 msgid "Proceed to checkout"
-msgstr ""
+msgstr "Tiếp tục thanh toán"
 
 #: woocommerce/cart/cart.php:28 woocommerce/cart/cart.php:48
 #: woocommerce/checkout/review-order.php:23
 #: woocommerce/order/order-details.php:51
 msgid "Product"
-msgstr ""
+msgstr "Sản phẩm"
 
 #: inc/woocommerce/class-bookworm-woocommerce.php:62
 msgid "Product Details"
@@ -1601,7 +1601,7 @@ msgstr ""
 
 #: woocommerce/cart/cart.php:30 woocommerce/cart/cart.php:87
 msgid "Quantity"
-msgstr ""
+msgstr "Số lượng"
 
 #: templates/shop/single-product-advanced-reviews.php:172
 msgid "Rate&hellip;"
@@ -2103,7 +2103,7 @@ msgstr ""
 #: woocommerce/checkout/review-order.php:24
 #: woocommerce/checkout/review-order.php:59
 msgid "Subtotal"
-msgstr ""
+msgstr "Tổng tiền"
 
 #: templates/shop/compare.php:79
 msgid "Summary"
@@ -2401,7 +2401,7 @@ msgstr ""
 #: woocommerce/checkout/review-order.php:114
 #: woocommerce/order/order-details.php:52
 msgid "Total"
-msgstr ""
+msgstr "Tổng đơn hàng"
 
 #: inc/woocommerce/classes/class-bookworm-wc-helper.php:142
 msgid "Total Stock Quantity"
@@ -2446,7 +2446,7 @@ msgstr[0] ""
 
 #: woocommerce/cart/cart.php:150
 msgid "Update cart"
-msgstr ""
+msgstr "Cập nhật giỏ hàng"
 
 #: inc/classes/class-tgm-plugin-activation.php:2418
 msgid "Update recommended"
@@ -2639,11 +2639,11 @@ msgstr ""
 
 #: inc/woocommerce/template-functions/cart.php:13
 msgid "Your cart is currently empty."
-msgstr ""
+msgstr "Bạn không có sản phẩm trong giỏ hàng"
 
 #: inc/woocommerce/template-functions/cart.php:21
 msgid "Your Cart: %s"
-msgstr ""
+msgstr "Giỏ hàng %s"
 
 #. translators: comment author e-mail
 #: inc/template-functions/blog.php:602
@@ -2665,7 +2665,7 @@ msgstr ""
 
 #: inc/woocommerce/bookworm-woocommerce-functions.php:593
 msgid "Your shopping bag (%u)"
-msgstr ""
+msgstr "Giỏ hàng (%u)"
 
 #: inc/customizer/class-bookworm-customizer.php:1299
 msgid "— Select —"

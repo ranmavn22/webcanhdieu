@@ -26,12 +26,12 @@ if ( ! function_exists( 'bookworm_breadcrumb' ) ) {
 
 
         if( ! $hide_page_breadcrumb ) {
-            
+
             if ( ! bookworm_is_woocommerce_activated() ) {
                 return;
             }
 
-            if ( isset( $page_breadcrumb_values ) && $page_breadcrumb_values ) { 
+            if ( isset( $page_breadcrumb_values ) && $page_breadcrumb_values ) {
                 return;
             }
 
@@ -57,7 +57,7 @@ if ( ! function_exists( 'bookworm_breadcrumb' ) ) {
             } else {
                 $breadcrumb_html = trim( str_replace( '<a', '<a class="h-primary"', $breadcrumb_html ) );
             }
-                     
+
             if ( $breadcrumb_html && $background_enabled && ( is_shop() || is_product_taxonomy() || is_product_category() || is_product_tag() ) ) :
                 ?><div class="page-header mb-8">
                     <div class="bg-img-hero shop-page-header" style="background-image: url(<?php echo esc_attr( $image[0]);?> );">
@@ -82,7 +82,7 @@ if ( ! function_exists( 'bookworm_breadcrumb' ) ) {
                     </div><?php
                 endif;
             endif;
-            
+
         }
     }
 }
@@ -119,7 +119,7 @@ if ( ! function_exists( 'bookworm_the_page_header' ) ) {
     function bookworm_the_page_header( $title = '', $header_classes = array() ) {
         $title = empty( $title ) ? get_the_title(): $title;
         ?><div class="page__header py-3 py-lg-7 <?php echo esc_attr( implode( ' ', $header_classes ) );?>">
-            <h6 class="font-weight-medium font-size-7 text-center my-1"><?php echo esc_html( $title ); ?></h6>
+            <h6 class="font-weight-medium font-size-7 text-center my-1"><?php echo nl2br($title) ?></h6>
         </div><?php
     }
 }
@@ -142,7 +142,7 @@ if ( ! function_exists( 'bookworm_page_content' ) ) {
         ?><div class="article__content article__content--page<?php echo esc_attr( $article_content_additional_class ); ?>">
             <div class="page__content">
                 <?php the_content(); ?>
-                
+
             </div><!-- .page__content -->
             <?php
                 $link_pages = wp_link_pages(
@@ -160,7 +160,7 @@ if ( ! function_exists( 'bookworm_page_content' ) ) {
             echo wp_kses_post( $link_pages );
 
             ?>
-            
+
         </div>
         <?php
     }
