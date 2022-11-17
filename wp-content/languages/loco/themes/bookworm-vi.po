@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Bookworm Child\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-31 16:56+0000\n"
-"PO-Revision-Date: 2022-11-15 17:11+0000\n"
+"PO-Revision-Date: 2022-11-17 16:09+0000\n"
 "Last-Translator: \n"
 "Language-Team: Tiếng Việt\n"
 "Language: vi\n"
@@ -1439,7 +1439,7 @@ msgstr ""
 
 #: woocommerce/checkout/payment.php:28
 msgid "Payment"
-msgstr ""
+msgstr "Hình thức thanh toán"
 
 #: inc/template-functions/footer.php:690
 msgid "Payment Info"

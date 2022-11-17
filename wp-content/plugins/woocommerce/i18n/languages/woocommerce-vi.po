@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2022-10-11T15:41:48+00:00\n"
-"PO-Revision-Date: 2022-11-15 16:47+0000\n"
+"PO-Revision-Date: 2022-11-17 17:04+0000\n"
 "X-Generator: Loco https://localise.biz/\n"
 "X-Domain: woocommerce\n"
 "Language: vi\n"
@@ -13644,7 +13644,7 @@ msgstr ""
 #: includes/admin/list-tables/class-wc-admin-list-table-orders.php:245
 #: templates/checkout/form-billing.php:28
 msgid "Billing details"
-msgstr ""
+msgstr "Thông tin người đặt hàng"
 
 #: includes/admin/list-tables/class-wc-admin-list-table-orders.php:249
 #: includes/admin/reports/class-wc-report-customer-list.php:217
@@ -16423,7 +16423,7 @@ msgstr ""
 #: includes/admin/settings/class-wc-settings-advanced.php:190
 #: includes/class-wc-query.php:127
 msgid "Order received"
-msgstr ""
+msgstr "Đặt hàng thành công!"
 
 #: includes/admin/settings/class-wc-settings-advanced.php:191
 msgid "Endpoint for the \"Checkout &rarr; Order received\" page."
@@ -19812,7 +19812,7 @@ msgstr ""
 #: packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php:1207
 msgid "%s is a required field"
 msgid_plural "%s are required fields"
-msgstr[0] ""
+msgstr[0] "%s là trường bắt buộc"
 
 #. translators: 1: product link, 2: product name
 #: includes/class-wc-cart.php:1134
@@ -19915,7 +19915,7 @@ msgstr ""
 #: includes/class-wc-checkout.php:774
 msgctxt "checkout-validation"
 msgid "Billing %s"
-msgstr ""
+msgstr " %s"
 
 #. translators: %1$s: field name, %2$s finder.eircode.ie URL
 #: includes/class-wc-checkout.php:786
@@ -19951,7 +19951,7 @@ msgstr ""
 #: includes/class-wc-checkout.php:836 includes/class-wc-form-handler.php:132
 #: includes/class-wc-form-handler.php:278
 msgid "%s is a required field."
-msgstr ""
+msgstr "%s là trường bắt buộc"
 
 #: includes/class-wc-checkout.php:855 includes/class-wc-form-handler.php:412
 msgid ""
@@ -20565,7 +20565,7 @@ msgstr ""
 
 #: includes/class-wc-form-handler.php:706
 msgid "Cart updated."
-msgstr ""
+msgstr "Giỏ hàng đã được cập nhật"
 
 #: includes/class-wc-form-handler.php:746
 msgid "Order cancelled by customer."
@@ -30880,7 +30880,7 @@ msgstr ""
 
 #: includes/wc-template-functions.php:2357
 msgid "Place order"
-msgstr ""
+msgstr "Đặt hàng"
 
 #: includes/wc-template-functions.php:2840
 msgid "Update country / region"
@@ -45164,7 +45164,7 @@ msgstr ""
 #: packages/woocommerce-blocks/build/checkout-blocks/terms-frontend.js:1
 #: packages/woocommerce-blocks/build/checkout.js:36
 msgid "Place Order"
-msgstr ""
+msgstr "Đặt hàng"
 
 #: packages/woocommerce-blocks/assets/js/base/context/providers/add-to-cart-form/form-state/index.js:247
 #: packages/woocommerce-blocks/assets/js/base/context/providers/add-to-cart-form/form/submit/index.js:103

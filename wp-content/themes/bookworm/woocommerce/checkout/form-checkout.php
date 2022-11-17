@@ -53,7 +53,7 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 
     <?php do_action( 'woocommerce_checkout_before_order_review' ); ?>
 
-    <div id="order_review" class="woocommerce-checkout-review-order col-md-6 col-lg-5 col-xl-4 woocommerce-checkout-review-order">
+    <div id="order_review" class="woocommerce-checkout-review-order col-md-6 col-lg-5 col-xl-4 woocommerce-checkout-review-order custom-items-detail">
         <?php do_action( 'woocommerce_checkout_order_review' ); ?>
     </div>
 

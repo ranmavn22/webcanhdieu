@@ -51,46 +51,6 @@ defined( 'ABSPATH' ) || exit;
         do_action( 'woocommerce_review_order_after_cart_contents' );
         ?>
     </tbody>
-    <tbody class="p-4d875 border-bottom d-block">
-
-        <tr class="d-block mb-4"><td colspan="2" class="d-block p-0"><h3 class="checkout-title mb-0 font-weight-medium font-size-3"><?php esc_html_e( 'Cart Totals', 'bookworm' ); ?></h3></td></tr>
-
-        <tr class="cart-subtotal d-flex justify-content-between">
-            <th><?php esc_html_e( 'Subtotal', 'bookworm' ); ?></th>
-            <td><?php wc_cart_totals_subtotal_html(); ?></td>
-        </tr>
-
-        <?php foreach ( WC()->cart->get_coupons() as $code => $coupon ) : ?>
-            <tr class="cart-discount coupon-<?php echo esc_attr( sanitize_title( $code ) ); ?> d-flex justify-content-between position-relative">
-                <th><?php wc_cart_totals_coupon_label( $coupon ); ?></th>
-                <td><?php wc_cart_totals_coupon_html( $coupon ); ?></td>
-            </tr>
-        <?php endforeach; ?>
-
-        <?php foreach ( WC()->cart->get_fees() as $fee ) : ?>
-            <tr class="fee d-flex justify-content-between">
-                <th><?php echo esc_html( $fee->name ); ?></th>
-                <td><?php wc_cart_totals_fee_html( $fee ); ?></td>
-            </tr>
-        <?php endforeach; ?>
-
-        <?php if ( wc_tax_enabled() && ! WC()->cart->display_prices_including_tax() ) : ?>
-            <?php if ( 'itemized' === get_option( 'woocommerce_tax_total_display' ) ) : ?>
-                <?php foreach ( WC()->cart->get_tax_totals() as $code => $tax ) : // phpcs:ignore WordPress.WP.GlobalVariablesOverride.OverrideProhibited ?>
-                    <tr class="tax-rate tax-rate-<?php echo esc_attr( sanitize_title( $code ) ); ?> d-flex justify-content-between">
-                        <th><?php echo esc_html( $tax->label ); ?></th>
-                        <td><?php echo wp_kses_post( $tax->formatted_amount ); ?></td>
-                    </tr>
-                <?php endforeach; ?>
-            <?php else : ?>
-                <tr class="tax-total d-flex justify-content-between">
-                    <th><?php echo esc_html( WC()->countries->tax_or_vat() ); ?></th>
-                    <td><?php wc_cart_totals_taxes_total_html(); ?></td>
-                </tr>
-            <?php endif; ?>
-        <?php endif; ?>
-
-    </tbody>
 
     <?php if ( WC()->cart->needs_shipping() && WC()->cart->show_shipping() ) : ?>
     <tbody class="p-4d875 border-bottom d-block">

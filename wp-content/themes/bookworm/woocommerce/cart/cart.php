@@ -83,7 +83,7 @@ do_action( 'woocommerce_before_cart' ); ?>
                                 echo apply_filters( 'woocommerce_cart_item_price', WC()->cart->get_product_price( $_product ), $cart_item, $cart_item_key ); // PHPCS: XSS ok.
                             ?>
                         </td>
-                        
+
                         <td class="product-quantity" data-title="<?php esc_attr_e( 'Quantity', 'bookworm' ); ?>">
                         <?php
                         if ( $_product->is_sold_individually() ) {
@@ -106,7 +106,7 @@ do_action( 'woocommerce_before_cart' ); ?>
                         echo apply_filters( 'woocommerce_cart_item_quantity', $product_quantity, $cart_item_key, $cart_item ); // PHPCS: XSS ok.
                         ?>
                         </td>
-                        
+
 
                         <td class="product-subtotal" data-title="<?php esc_attr_e( 'Subtotal', 'bookworm' ); ?>">
                             <?php
@@ -163,7 +163,7 @@ do_action( 'woocommerce_before_cart' ); ?>
 
 <?php do_action( 'woocommerce_before_cart_collaterals' ); ?>
 
-<div class="cart-collaterals">
+<div class="cart-collaterals custom-items-detail">
     <?php
         /**
          * Cart collaterals hook.
