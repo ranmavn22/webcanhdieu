@@ -135,7 +135,7 @@ if ( ! function_exists( 'bookworm_page_content' ) ) {
 
         $article_content_additional_class = '';
 
-        if ( ! ( isset( $page_meta_values ) && $page_meta_values) ) {
+        if ( (! ( isset( $page_meta_values ) && $page_meta_values)) && $post->ID != 207 ) {
             $article_content_additional_class .= ' container';
         }
 

@@ -22,6 +22,64 @@ html body{
     color:  #000;
 }
 
+.area-banks{
+    max-width: 830px;
+    left: 305px;
+    top: 499px;
+    border: 1px solid #D9D9D9 !important;
+    margin: 0 auto;
+    padding: 35px 50px 40px;
+    margin-bottom: 80px;
+}
+
+.padding-left-15{padding-left: 15px;}
+
+.area-banks .flex{
+    justify-content: space-between;
+    margin-bottom: 22px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.area-banks .flex h6{
+    font-weight: 500;
+    font-size: 24px;
+}
+.area-banks .flex div{
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+}
+.area-banks .flex div strong{
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.area-banks .bank-detail{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.page .area-banks .bank-detail .item{
+    margin-bottom: 10px;
+    background: #FFFFFF;
+    border: 1px dashed #D9D9D9;
+    width: calc( 50% - 5px);
+    padding: 16px 40px 20px 110px !important;
+    background: url("./assets/images/vcb.png") no-repeat left;
+}
+.page .area-banks .bank-detail .item p {
+    margin: 0;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+    padding: 0 !important;
+}
+
 #site-header .topbar__nav--right .nav-item:first-child{
     display:none !important;
 }
@@ -583,6 +641,7 @@ body .site-main{
 #payment .button,
 .checkout-button {
     color: #fff !important;
+    padding: 17px 10px !important;
 }
 .woocommerce-billing-fields h3{font-weight: 700; font-size: 14px;}
 
@@ -654,6 +713,9 @@ form.woocommerce-checkout{
 .justify-center{
     justify-content: center;
 }
+#offcanvasCart{
+    display: none !important;
+}
 @media(min-width: 1200px) {
     .offcanvas-toggler{
         display: none !important;
@@ -698,6 +760,22 @@ form.woocommerce-checkout{
 }
 
 @media(max-width: 767px) {
+    .page .area-banks .bank-detail .item{
+        width: 100%;
+    }
+    .area-banks{
+        padding: 35px 20px 30px;
+    }
+    .area-banks .flex h6,
+    .area-banks .flex div{
+        width: 100%;
+    }
+    .row.padding-left-15{
+        padding-left: 0;
+    }
+    .checkout-detail-info{
+        padding: 20px 15px;
+    }
     #offcanvasCart.u-sidebar .media img{
         width: 100px
     }
