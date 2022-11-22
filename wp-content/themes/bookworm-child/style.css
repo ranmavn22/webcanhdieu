@@ -22,6 +22,25 @@ html body{
     color:  #000;
 }
 
+div.wpforms-container-full .wpforms-form .wpforms-field-label{
+    font-weight: bold!important;
+}
+
+div.wpforms-container-full .wpforms-form button[type=submit]{
+    width: 220px;
+    height: 55px !important;
+    left: 370px;
+    top: 1516px;
+    background: #39AADE !important;
+    border: none !important;
+    font-weight: 700;
+}
+
+#site-header .custom-logo-link img{
+    max-height: 89px !important;
+    width: auto;
+}
+
 .area-banks{
     max-width: 830px;
     left: 305px;
@@ -120,7 +139,9 @@ html body{
 #menu-primary-menu a{
     margin: 0 15px !important;
 }
-#menu-primary-menu .current_page_item a{
+
+.term-166 #menu-primary-menu #menu-item-3190 a,
+#menu-primary-menu .current-menu-item a{
     font-weight: 700 !important;
     color: #009740;
 }
@@ -716,6 +737,9 @@ form.woocommerce-checkout{
 #offcanvasCart{
     display: none !important;
 }
+#widgetAccordion li.current-cat a{
+    color: #009740;
+}
 @media(min-width: 1200px) {
     .offcanvas-toggler{
         display: none !important;
@@ -760,6 +784,9 @@ form.woocommerce-checkout{
 }
 
 @media(max-width: 767px) {
+    #customer_details > .border {
+        padding: 30px 20px !important;
+    }
     .page .area-banks .bank-detail .item{
         width: 100%;
     }
@@ -839,5 +866,8 @@ form.woocommerce-checkout{
         display:flex;
         justify-content: end;
         padding-left: 30px;
+    }
+    .shop-control-bar{
+        margin-top: 30px
     }
 }
