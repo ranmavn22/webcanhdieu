@@ -21,11 +21,34 @@ html body{
     font-size: 14px;
     color:  #000;
 }
+.topbar__nav--right .nav-item:last-child{
+    margin-top: 170px;
+}
+#site-header .site-search{
+    padding-right: 40px;
+    position: relative;
+    z-index: 999;
+}
 
+.footer-supplier .wp-block-gallery .wp-block-image img{
+    max-width: 80px;
+    max-height: 83px;
+}
+.topbar__nav--right i{
+    font-size: 26px;
+}
+.wp-block-bwgb-social-icon i,
+#menu-social-menu i{
+    font-size: 20px;
+}
+
+#site-header .custom-logo-link img{
+    max-height: 89px !important;
+    width: auto;
+}
 div.wpforms-container-full .wpforms-form .wpforms-field-label{
     font-weight: bold!important;
 }
-
 div.wpforms-container-full .wpforms-form button[type=submit]{
     width: 220px;
     height: 55px !important;
@@ -34,11 +57,7 @@ div.wpforms-container-full .wpforms-form button[type=submit]{
     background: #39AADE !important;
     border: none !important;
     font-weight: 700;
-}
-
-#site-header .custom-logo-link img{
-    max-height: 89px !important;
-    width: auto;
+    font-size: 1rem;
 }
 
 .area-banks{
@@ -122,6 +141,7 @@ div.wpforms-container-full .wpforms-form button[type=submit]{
 
 .topbar__nav .topbar__nav--left li a{
     padding: 0 10px;
+    color: #DA2328;
 }
 .topbar__nav .topbar__nav--left li:first-child{
     font-weight: bold;
@@ -146,7 +166,15 @@ div.wpforms-container-full .wpforms-form button[type=submit]{
     color: #009740;
 }
 #menu-primary-menu {
-    font-size: 14px;
+    font-size: 16px;
+}
+
+.feature-category .list-unstyled .product-category .product-category__inner .product-category__icon:before{
+    transition: 0.2s all;
+}
+
+.feature-category .list-unstyled .product-category .product-category__inner:hover .product-category__icon:before{
+    transform: scale(1.1)
 }
 
 .feature-category .list-unstyled .product-category:first-child .product-category__icon:before{
@@ -203,6 +231,11 @@ div.wpforms-container-full .wpforms-form button[type=submit]{
 }
 .header-session header a{
     font-size: 18px;
+    color: #fff;
+    transition: 0.2s all;
+}
+.header-session header a:hover{
+    opacity: 0.6;
     color: #fff
 }
 .header-session header .active .bwgb-tabs__title{
@@ -302,14 +335,43 @@ div.wpforms-container-full .wpforms-form button[type=submit]{
     color: #000000;
     height: inherit !important;
 }
-.product__inner .product__hover {
+.product__inner .product__hover a.add_to_cart_button,
+.product__inner .product__hover a.added_to_cart{
+    background: #39AADE;
+    border-radius: 10px;
+    color: #fff !important;
+    width: 100%;
+    text-align: center;
+    height: 35px;
+    font-weight: 700 !important;
+    font-size: 14px;
+    text-transform: inherit!important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s all
+}
+.product__inner .product__hover a.add_to_cart_button span:after,
+.product__inner .product__hover a.added_to_cart span:after{
+    display: none;
+}
+.product__inner .product__hover a.add_to_cart_button:hover,
+.product__inner .product__hover a.added_to_cart:hover{
+    color: #e7e7e7 !important;
+}
+.product__inner .product__hover .product__add-to-cart-icon,
+.product__inner .product__hover .added_to_cart{
     display: none !important;
 }
+.product__inner .product__hover .product__add-to-cart{
+    display: block !important
+}
+.product__inner .product__hover .product__add-to-cart{
+    display: block !important
+}
+
 .product__inner{
     padding: 25px 36px !important;
-}
-.products .product:hover .product__body{
-    transform: inherit !important;
 }
 
 .session-book-feature .product__inner,
@@ -326,11 +388,15 @@ div.wpforms-container-full .wpforms-form button[type=submit]{
 .footer-supplier .widget_media_gallery{
     width: 100%;
 }
+.footer-supplier .wp-block-gallery .wp-block-image img:hover{
+    transform: scale(1.1);
+}
 .footer-supplier .wp-block-gallery .wp-block-image img{
     width: auto !important;
     flex: inherit !important;
     object-fit: inherit !important;
     height: auto !important;
+    transition: 0.2s all;
 }
 .footer-supplier .wp-block-gallery .wp-block-image{
     max-width: 80px !important;
@@ -389,6 +455,7 @@ div.wpforms-container-full .wpforms-form button[type=submit]{
     font-size: 12px;
     text-transform: uppercase;
     margin: 3px 2px;
+    font-weight: 600;
 }
 .footer-top-row .menu{
     display: flex;
@@ -746,6 +813,9 @@ form.woocommerce-checkout{
     }
 }
 @media(max-width: 1200px) {
+    .topbar__nav--right .nav-item:last-child{
+        margin-top: 140px;
+    }
     .product__inner{
         padding-left: 17px !important;
         padding-right: 17px !important;
