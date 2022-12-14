@@ -16,3 +16,10 @@ function change_existing_currency_symbol( $currency_symbol, $currency ) {
 //    }
     return ' VND';
 }
+
+require_once dirname( __FILE__ ) . '/class-wc-widget-layered-nav.php';
+
+add_action( 'widgets_init', 'custom_widget_th' );
+function custom_widget_th() {
+    register_widget('WC_Widget_Layered_Nav_N');
+}
